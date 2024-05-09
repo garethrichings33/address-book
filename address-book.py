@@ -223,7 +223,6 @@ if __name__ == "__main__":
             dialog.exec()
 
         def close_contact(self):
-            print(self.contact_altered, self.contact_saved)
             if self.contact_altered and not self.contact_saved:
                 self.contact_not_saved_warning()
             else:
